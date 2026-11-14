@@ -19,7 +19,7 @@
 - Existing mode identifiers found: `gridshot`, `flick`, `tracking`, and `directional`.
 - `StatsManager` and statistics-rendering code are present.
 - Built-in procedural audio entries and a radio-station catalog are present. Actual stream reachability, playback, metadata, licensing, and CORS behavior have not been verified.
-- The current repository also contains weapon-related reference images in its root. They should be catalogued and moved into `assets/references/weapons/` in a later binary-safe Git operation, preserving their exact bytes and history where possible.
+- Three WebP images are stored under `assets/references/concept-examples/`. They are temporary visual examples of the desired weapon / first-person-hands direction, not final game-ready assets. Their original binary blobs were moved without re-encoding.
 
 ## Known audit limits
 

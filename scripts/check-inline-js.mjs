@@ -3,8 +3,8 @@ import vm from "node:vm";
 
 const file = "CleanerSlty.html";
 const html = readFileSync(file, "utf8");
-const scriptTags = [...html.matchAll(/<script\\b([^>]*)>([\\s\\S]*?)<\\/script\\s*>/gi)];
-const inlineScripts = scriptTags.filter(([, attributes]) => !/\\bsrc\\s*=/i.test(attributes));
+const scriptTags = [...html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script\s*>/gi)];
+const inlineScripts = scriptTags.filter(([, attributes]) => !/\bsrc\s*=/i.test(attributes));
 
 if (inlineScripts.length === 0) {
   console.error(`No inline script blocks found in ${file}.`);

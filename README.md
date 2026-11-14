@@ -83,4 +83,4 @@ See [`docs/PROJECT_STATUS.md`](./docs/PROJECT_STATUS.md) for the current baselin
 
 ## License
 
-The repository currently contains an Apache License 2.0 file. Its scope and suitability for the complete project and third-party assets should be reviewed before public distribution. The repository is private; do not assume that private visibility itself changes the legal effect of a license file.
+The repository retains **Apache License 2.0** for original project code that the project owner has the right to license. The temporary concept-reference images are not final project assets and are not automatically covered by that code license; their provenance and usage rights must be checked separately before redistribution or inclusion in a public build. Repository privacy does not override the terms of a license file. See [`docs/ASSET_PROVENANCE.md`](./docs/ASSET_PROVENANCE.md).

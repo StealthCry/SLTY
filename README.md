@@ -42,7 +42,7 @@ The current baseline is a standalone HTML file that loads Three.js from a CDN. A
 
 For local development, serve the repository through a local HTTP server rather than assuming every browser API will behave correctly from a `file://` URL. No package manager or build pipeline is defined yet.
 
-## Repository structure
+## Reference images\n\nThe images currently stored under `assets/references/concept-examples/` are **temporary visual examples** showing the desired direction for the in-game weapon and first-person hands. They are inspiration/reference material only, not approved production assets and not files that should be imported into the game as finished models. Any final weapon model, textures, rig, and animations must be created or sourced separately and reviewed for quality and usage rights.\n\n## Repository structure
 
 ```text
 SLTY/
